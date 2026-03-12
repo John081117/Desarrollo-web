@@ -1,0 +1,32 @@
+:root {
+  --bg: #F5F0E8;
+  --surface: #FDFAF4;
+  --ink: #1A1208;
+  --accent: #C8522A;
+  --border: #D9D0C0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+}
+
+main { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+
+.hero { text-align: center; padding: 4rem 0; }
+.hero h2 { font-family: 'Playfair Display', serif; font-size: 3rem; margin: 0; }
+
+.filter-bar { display: flex; justify-content: center; gap: 10px; margin-bottom: 30px; }
+.filter-bar button {
+  padding: 8px 16px; border: 1px solid var(--border);
+  background: transparent; border-radius: 20px; cursor: pointer;
+}
+.filter-bar button.active { background: var(--ink); color: white; }
+
+#product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}

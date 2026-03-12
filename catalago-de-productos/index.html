@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MODA · Catálogo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <app-header></app-header>
+
+  <main>
+    <section class="hero">
+      <h2>Colección <em>Primavera</em> 2025</h2>
+      <p>Diseño atemporal para el guardarropa moderno.</p>
+    </section>
+
+    <div class="filter-bar" id="filter-bar"></div>
+    <div id="product-grid"></div>
+  </main>
+
+  <app-footer></app-footer>
+
+  <template id="product-card-template">
+    <div class="card">
+      <div class="img-wrap">
+        <img id="img" src="" alt="">
+        <span class="badge" id="badge"></span>
+      </div>
+      <div class="body">
+        <p class="category" id="category"></p>
+        <h3 class="name" id="name"></h3>
+        <p class="desc" id="desc"></p>
+        <div class="footer">
+          <p class="price"><span id="price"></span></p>
+          <button class="btn-add" id="btn-add">+ Añadir</button>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <script src="components/header/header.html"></script>
+  <script src="components/footer/footer.html"></script>
+  <script src="js/javascript.js"></script>
+</body>
+</html>
