@@ -1,14 +1,12 @@
 class AppHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <header style="display: flex; justify-content: space-between; padding: 20px 40px; border-bottom: 1px solid #D9D0C0;">
-        <div style="font-family: 'Playfair Display'; font-weight: bold; font-size: 24px;">MODA</div>
-        <nav style="display: flex; gap: 20px; align-items: center;">
+      <header>
+        <div class="logo">MODA</div>
+        <nav>
           <a href="#">Colección</a>
           <a href="#">Nuevo</a>
-          <button id="cart-counter" style="background: #1A1208; color: white; border: none; padding: 8px 15px; border-radius: 5px;">
-            🛒 Carrito (0)
-          </button>
+          <button id="cart-counter">🛒 Carrito (0)</button>
         </nav>
       </header>
     `;
