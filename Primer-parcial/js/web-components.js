@@ -56,6 +56,14 @@ class ProductCard extends HTMLElement {
           justify-content: center;
           font-size: 3rem;
           color: #d0ffc2;
+          overflow: hidden;
+        }
+
+        .product-image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
         }
 
         .product-info {
@@ -105,7 +113,7 @@ class ProductCard extends HTMLElement {
       </style>
 
       <div class="product-card">
-        <div class="product-image">${image}</div>
+        <div class="product-image"><img src="${image}" alt="${name}"></div>
         <div class="product-info">
           <div class="product-name">${name}</div>
           <div class="product-price">${price}</div>

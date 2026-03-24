@@ -4,7 +4,7 @@
     "name": "Nike Mercurial Superfly",
     "price": "$160.00",
     "description": "Taco de césped natural, ligero y con tracción superior.",
-    "image": "⚽",
+    "image": "images/nike-mercurial.jpg",
     "category": "cesped"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Adidas Predator Accuracy",
     "price": "$150.00",
     "description": "Diseño de precisión para tiros y pases en campo sintético.",
-    "image": "⚽",
+    "image": "images/adidas-predator.jpg",
     "category": "sintetica"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Puma Future Z 1.1",
     "price": "$145.00",
     "description": "Control adaptable y agarre perfecto para césped y artificial.",
-    "image": "⚽",
+    "image": "images/puma-future.jpg",
     "category": "cesped"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Nike Premier II Sala",
     "price": "$130.00",
     "description": "Calzado clásico para microfútbol con amortiguación y confort.",
-    "image": "⚽",
+    "image": "images/nike-premier-sala.jpg",
     "category": "microfutbol"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Adidas X Ghosted Sala",
     "price": "$138.00",
     "description": "Máxima velocidad en pistas cubiertas y superficies sintéticas.",
-    "image": "⚽",
+    "image": "images/adidas-x-ghosted.jpg",
     "category": "microfutbol"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Mizuno Morelia Neo",
     "price": "$155.00",
     "description": "Comodidad profesional para césped natural y sintético.",
-    "image": "⚽",
+    "image": "images/mizuno-morelia.jpg",
     "category": "sintetica"
   }
 ]

@@ -1,0 +1,1 @@
+Agregar aquí las imágenes reales de los productos (jpg/png). Usa nombres iguales a los de products.json, por ejemplo nike-mercurial.jpg

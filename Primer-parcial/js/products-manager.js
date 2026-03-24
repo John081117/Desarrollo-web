@@ -124,7 +124,9 @@ function renderProductsWithTemplate(products, containerId) {
     clone.querySelector('.product-name').textContent = product.name;
     clone.querySelector('.product-price').textContent = product.price;
     clone.querySelector('.product-description').textContent = product.description;
-    clone.querySelector('.product-image').textContent = product.image;
+    const img = clone.querySelector('.product-image img');
+    img.src = product.image;
+    img.alt = product.name;
     clone.querySelector('.product-button').setAttribute('data-product-id', product.id);
     
     container.appendChild(clone);

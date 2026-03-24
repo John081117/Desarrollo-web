@@ -210,7 +210,9 @@ product-card .product-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
+
 
 .product-info {
   padding: 1.5rem;
