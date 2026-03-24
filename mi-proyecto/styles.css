@@ -21,13 +21,53 @@ body {
     text-decoration: none;
     color: white;
 }
-.contendio {
+.contenido {
     padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 button {
     padding: 8px 15px;
     border: none;
+    border-radius: 8px;
     cursor: pointer;
+    background: #ffc107;
+    color: #222;
+    font-weight: 700;
+    transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+button:hover {
+    transform: translateY(-1px);
+    background: #ffca28;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+body.dark button {
+    background: #ffb300;
+    color: #222;
+}
+
+body.dark button:hover {
+    background: #ffd54f;
 }
 .dark{
     background: #121212;
